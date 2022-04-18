@@ -1,0 +1,93 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+.titulo {
+  background: rgba(92, 22, 197, 1);
+  font-family: tahoma;
+  color: aliceblue;
+  text-indent: 30px;
+  padding-top: 10px;
+  height: 35px;
+
+  border-style: solid;
+  border-top-style: outset;
+  border-top-color: rgb(206, 135, 2);
+  border-top-width: 1px;
+}
+
+.body {
+  font-weight: 1;
+  background-color: rgba(45, 12, 94, 1);
+  color: aliceblue;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center;
+  height: 240px;
+
+  border-style: solid;
+  border-top-style: outset;
+  border-top-color: rgb(206, 135, 2);
+  border-top-width: 1px;
+}
+
+.button {
+  
+  background-color: white;
+  color: black;
+  border: 2.5px solid rgb(206, 135, 2);
+  text-align: center;
+  margin-left: 12px;
+  cursor: pointer;
+  margin-top: 30px;
+
+  padding: 5px;
+}
+
+.filtre {
+  margin-top: 22px;
+  font-weight: bold;
+}
+.gridContainer {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto auto auto;
+  background-color: #b8a3d4;
+  padding: 10px;
+}
+
+.gridItem {
+  background-color: rgba(234, 226, 226, 0.8);
+  padding: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+img {
+  width: 90%;
+      
+ }
+ .img{
+   padding-top: 100%;
+
+ }
+ .background-sinopse {
+  font-size:  19px;
+  background-color: #b8a3d4;
+  margin-bottom: 0%;
+  margin-top: 1%;
+  color: black;
+  font-family: serif;
+  border: 2.5px solid rgb(206, 135, 2);
+  text-align: justify;
+  padding: 10px;
+  margin-top: 0%;
+ }
+
+ .tituloFilme{
+  color:rgb(206, 135, 2) ;
+  } 
+ 
